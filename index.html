@@ -1,12 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Lato:wght@300;400;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+    <!-- Responsive -->
+    <link rel="stylesheet" type="text/css" href="./css/responsive.css">
+
+    <link rel="icon" type="imagem/png" href="/assets/icon/boxing-gloves.png">
+
+    <!-- Owl CSS -->
+    <link rel="stylesheet" href="./css/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl/owl.theme.default.min.css">
+
+    <title>Brawlflix</title>
+  </head>
+
+  <body>
+
+    <!-- Header -->
+    <header>
+      <div class="menu-container">
+        <h2 class="menu-logo">BRAWLFLIX</h2>
+        <nav class="menu-primary-nav menu-nav">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Releases</a></li>
+            <li><a href="#">Upcoming</a></li>
+            <li><a href="#">My List</a></li>
+          </ul>
+        </nav>
+
+        <nav class="menu-secondary-nav menu-nav">
+          <ul>
+            <li><a href="#"><i class="fas fa-search"></i></a></li>
+            <li><a href="#"><i class="fas fa-bell"></i></a></li>
+            <li>
+              <a href="#">
+                <img src="./assets/icon/user-avatar.png" alt="User avatar">
+                <i class="fas fa-sort-down"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main content -->
+    <main>
+      <!-- Primary game -->
+      <section class="primary-game">
+        <div class="game-container">
+          <img src="assets/img/primary-game-logo.png" class="game-title">
+          <p class="game-description">
+            “Guilty Gear -Strive-“ is the latest entry in the Guilty Gear fighting game franchise. Created by Daisuke Ishiwatari and developed by Arc System Works, “Guilty Gear -Strive-“ upholds the series’ reputation for groundbreaking hybrid 2D/3D cell-shaded graphics and intense, rewarding gameplay.
+          </p>
+          <div class="buttons">
+            <button role="button" class="button">
+              <i class="fas fa-gamepad"></i>
+              Play now
+            </button>
+
+            <button role="button" class="button">
+              <i class="fas fa-info-circle"></i>
+              Game details
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Game carousel -->
+      <section class="game-carousel">
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <img class="game-box" src="./assets/img/game-01.jpg" alt="Game 1">
+          </div>
+          <div class="item">
+            <img class="game-box" src="./assets/img/game-02.jpg" alt="Game 2">
+          </div>
+          <div class="item">
+            <img class="game-box" src="./assets/img/game-03.jpg" alt="Game 3">
+          </div>
+          <div class="item">
+            <img class="game-box" src="./assets/img/game-04.jpg" alt="Game 4">
+          </div>
+          <div class="item">
+            <img class="game-box" src="./assets/img/game-05.jpg" alt="Game 5">
+          </div>
+          <div class="item">
+            <img class="game-box" src="./assets/img/game-06.jpg" alt="Game 6">
+          </div>
+          <div class="item">
+            <img class="game-box" src="./assets/img/game-07.jpg" alt="Game 7">
+          </div>
+          <div class="item">
+            <img class="game-box" src="./assets/img/game-08.jpg" alt="Game 8">
+          </div>
+          <div class="item">
+            <img class="game-box" src="./assets/img/game-09.jpg" alt="Game 9">
+          </div>
+          <div class="item">
+            <img class="game-box" src="./assets/img/game-10.jpg" alt="Game 10">
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/3e5e343866.js" crossorigin="anonymous"></script>
+
+    <!-- Owl Carousel -->
+    <script src="./js/owl/jquery.min.js"></script>
+    <script src="./js/owl/owl.carousel.min.js"></script>
+    <script src="./js/owl/setup.js"></script>
+
+  </body>
+
 </html>

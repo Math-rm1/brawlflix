@@ -1,0 +1,157 @@
+/* General settings */
+
+:root {
+  --red: #E50914;
+  --black: #141414;
+  --white: #FFFFFF;
+  --gray: #b3b3b3;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: var(--black);
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  color: var(--white);
+}
+
+/* Navbar */
+
+.menu-container {
+  display: flex;
+  align-items: center;
+  padding: 0 56px;
+}
+
+.menu-container .menu-logo {
+  color: var(--red);
+  font-family: 'Bangers', Lato, Helvetica, sans-serif;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-size: 3.2rem;
+  margin-right: 24px;
+}
+
+.menu-container .menu-nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.menu-container .menu-nav a {
+  padding: 16px 8px;
+  display: block;
+  font-size: 1.6rem;
+  color: var(--white);
+  text-decoration: none;
+}
+
+.menu-container .menu-nav a:hover {
+  color: var(--gray);
+}
+
+.menu-container .menu-primary-nav a {
+  margin-right: 8px;
+}
+
+.menu-container .menu-secondary-nav {
+  margin-left: auto;
+}
+
+.menu-container .menu-secondary-nav a {
+  margin-left: auto;
+  margin-left: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.menu-container .menu-secondary-nav img {
+  max-width: 32px;
+}
+
+.menu-container .menu-secondary-nav i {
+  font-size: 1.6rem;
+}
+
+.menu-container .menu-secondary-nav img+i {
+  margin-left: 4px;
+}
+
+/* Primary game */
+
+.primary-game {
+  background: linear-gradient(rgba(0, 0, 0, 0.5) 90%, rgba(20, 20, 20, 1)), url('/assets/img/primary-game-bg.jpg');
+  background-size: cover;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.primary-game .game-container {
+  max-width: 60%;
+  padding: 0 56px;
+}
+
+.primary-game img.game-title {
+  max-width: 560px;
+}
+
+.primary-game .game-description {
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 1.6rem;
+  margin-bottom: 32px;
+}
+
+.primary-game .button {
+  font-weight: 500;
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  font-size: 1.6rem;
+  border: none;
+  padding: 16px 56px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s ease all;
+}
+
+.primary-game .button:nth-child(1) {
+  background: var(--white);
+  color: var(--black);
+  margin-right: 16px;
+}
+
+.primary-game .button:nth-child(1):hover {
+  background-color: var(--gray);
+}
+
+.primary-game .button:nth-child(2) {
+  background-color: rgba(70, 70, 70, .8);
+  color: var(--white);
+}
+
+.primary-game .button:nth-child(2):hover {
+  background-color: rgba(70, 70, 70, .4);
+}
+
+.primary-game .button i {
+  margin-right: 4px;
+}
+
+/* Game carousel */
+
+.game-box {
+  height: 100%;
+  width: 100%;
+  display: block;
+  border-radius: 4px;
+}
