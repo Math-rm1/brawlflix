@@ -1,0 +1,111 @@
+@media screen and (min-width: 1440px) {
+  .primary-game .game-description {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  /* Menu container */
+  .menu-container {
+    flex-direction: column;
+  }
+  .menu-container .menu-logo {
+    padding: 8px;
+    margin: 0;
+  }
+  .menu-container .menu-nav a {
+    padding: 8px;
+  }
+  .menu-container .menu-primary-nav {
+    order: 2;
+  }
+  .menu-container .menu-secondary-nav {
+    order: 1;
+    margin-left: 0;
+  }
+  /* Primary game */
+  .primary-game {
+    align-items: center;
+    background-position-x: -300px;
+  }
+  .primary-game .game-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+  }
+  .primary-game img.game-title {
+    width: 500px;
+    margin-bottom: 16px;
+  }
+  .primary-game .game-description {
+    text-align: center;
+  }
+  .primary-game .buttons {
+    display: flex;
+    justify-content: center;
+  }
+  .primary-game .buttons button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 40px;
+    width: 225px;
+  }
+  /* Game carousel */
+  .game-carousel {
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+  .game-carousel h2 {
+    margin-left: 16px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  /* Menu container */
+  .menu-container {
+    padding: 0 8px;
+  }
+  /* Primary game */
+  .primary-game {
+    background-position-x: -475px;
+  }
+  .primary-game img.game-title {
+    width: 275px;
+  }
+  .primary-game .buttons button {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  /* Menu container */
+  .menu-container .menu-secondary-nav img {
+    max-width: 24px;
+  }
+  .menu-container .menu-logo {
+    font-size: 2.4rem;
+  }
+  .menu-container .menu-primary-nav a {
+    font-size: 1.4rem;
+  }
+  /* Primary game */
+  .primary-game .game-description {
+    font-size: 1.4rem;
+  }
+  .primary-game .buttons button {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* Primary game */
+  .primary-game {
+    background-position-x: -550px;
+  }
+  .primary-game .buttons button {
+    width: 125px;
+  }
+}

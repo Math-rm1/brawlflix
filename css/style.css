@@ -67,7 +67,6 @@ body {
 }
 
 .menu-container .menu-secondary-nav a {
-  margin-left: auto;
   margin-left: 8px;
   display: flex;
   align-items: center;
@@ -90,11 +89,12 @@ body {
 .primary-game {
   background: linear-gradient(rgba(0, 0, 0, 0.5) 90%, rgba(20, 20, 20, 1)), url('/assets/img/primary-game-bg.jpg');
   background-size: cover;
-  height: 70vh;
+  height: 700px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  margin-bottom: 16px;
 }
 
 .primary-game .game-container {
@@ -149,7 +149,18 @@ body {
 
 /* Game carousel */
 
-.game-box {
+.game-carousel {
+  margin-left: 56px;
+  margin-bottom: 24px;
+}
+
+.game-carousel h2 {
+  display: block;
+  font-size: 2.4rem;
+  margin-bottom: 16px;
+}
+
+.game-carousel .game-box {
   height: 100%;
   width: 100%;
   display: block;
