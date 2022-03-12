@@ -4,6 +4,8 @@ Brawlflix é um website inspirado na Netflix. Tem como foco principal jogos de l
 
 ## :earth_americas: Hospedagem da aplicação
 
+https://brawlflix.netlify.app
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/9fe2dd96-2115-4ea5-8004-aa925e02520d/deploy-status)](https://app.netlify.com/sites/brawlflix/deploys)
 
 ## :book: Sobre o projeto
